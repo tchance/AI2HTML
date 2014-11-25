@@ -1,0 +1,122 @@
+<html>
+<head>
+<link href="bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="bootstrap/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- Fonts --> 
+<link href="http://fonts.wsj.net/HCo_Whitney/font_HCo_Whitney.css" rel="stylesheet" type="text/css" /> 
+<link href="http://fonts.wsj.net/HCo_Chronicle/font_HCo_Chronicle.css" rel="stylesheet" type="text/css" /> 
+<!--[if lte IE 9]>
+<link href="http://fonts.wsj.net/HCo_Whitney/font_HCo_Whitney-ie.css" rel="stylesheet" type="text/css" /> 
+<link href="http://fonts.wsj.net/HCo_Chronicle/font_HCo_Chronicle-ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<style type="text/css">
+h1 { font-family:"Chronicle Display", "Times Roman", "Times New Roman", Georgia, serif; font-weight:700;text-align:center;}
+h2 { font-family:"Whitney","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:600;}
+body { font-family:"Whitney SSm","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;font-size:14px;}
+p { text-align: center; }
+.graphic { text-align:center; }
+
+@media (max-width: 760px) {
+  .graphic { float:center; }
+}
+</style>
+</head>
+<body align="center">
+<div class="container" style="padding-left:0px;">
+	<div class="row">
+		<div class="col-md-12">
+		<h1>AI2HTML Examples</h1>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-12">
+		<p class="intro">Quick examples of using the AI2HTML Script. <br>
+		(Yes, it is responsive)</p>
+		</div>
+	</div>
+
+	<div class="row graphic">
+	<div class="col-md-4 col-md-push-1 col-sm-5 col-xs-9 graphic center-block" style="height:auto;margin-left:auto;margin-right:auto;">	
+		<h2>Map</h2>
+		<div id='wsj_map_example_1416845681753' style='position:relative;width:auto;height:auto;margin-left:auto;margin-right:auto;' >
+			<style type='text/css'>
+				p.wsj_map_example_1416845681753_cls	{
+					font-family:nyt-franklin,arial,helvetica,sans-serif;padding:0;margin:0;
+				}
+			</style>
+			<img src='wsj_map_example_img.png' width='100%' height='auto' >
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:73px;left:45px;color:rgb(0,0,0);font-size:6.5px;text-align:left;line-height:120%;font-family:DJ5RetinaCd;'>Culiac&aacute;n</p>
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:30px;left:107px;color:rgb(0,0,0);font-size:6.5px;text-align:left;line-height:120%;font-family:DJ5RetinaCd;'>San Antonio</p>
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:103px;left:86px;color:rgb(0,0,0);font-size:7.5px;text-align:left;line-height:120%;font-family:DJ5RetinaCd;'>Mexico City</p>
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:131px;left:21px;color:rgb(0,0,0);font-size:6.5px;text-align:left;line-height:120%;font-family:DJ5RetinaAgReg;'>300 km</p>
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:117px;left:21px;color:rgb(0,0,0);font-size:6.5px;text-align:left;line-height:120%;font-family:DJ5RetinaAgReg;'>300 miles</p>
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:93px;left:31px;color:rgb(119,120,123);font-size:6px;text-align:center;line-height:120%;font-family:DJ5Exchange;font-style:italic;'>Pacific<br>Ocean</p>
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:7px;left:33px;color:rgb(119,120,123);font-size:6px;text-align:center;line-height:120%;font-family:DJ5Exchange;font-style:italic;'>ARIZ.</p>
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:7px;left:67px;color:rgb(119,120,123);font-size:6px;text-align:center;line-height:120%;font-family:DJ5Exchange;font-style:italic;'>N.M.</p>
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:62px;left:74px;color:rgb(0,0,0);font-size:6px;text-align:center;line-height:120%;font-family:DJ5Exchange;font-style:italic;font-weight:bold;'>SINALOA</p>
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:16px;left:106px;color:rgb(119,120,123);font-size:6px;text-align:center;line-height:120%;font-family:DJ5Exchange;font-style:italic;'>TEXAS</p>
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:26px;left:86px;color:rgb(119,120,123);font-size:7.5px;text-align:center;line-height:120%;font-family:DJ5RetinaCd;font-weight:bold;'>U.S.</p>
+			<p class='wsj_map_example_1416845681753_cls' style='position:absolute;top:82px;left:89px;color:rgb(0,0,0);font-size:7.5px;text-align:center;line-height:120%;font-family:DJ5RetinaCd;font-weight:bold;'>MEXICO</p>
+		<script>(function(){function pxVal(val){if(typeof val === 'string'){return (val.replace('px',''))*1;} else {return val * 1;}}var originalWidth = 157;var mapDiv = document.getElementById('wsj_map_example_1416845681753');var mapPs = (function(){var arr = [];var els = document.getElementsByClassName('wsj_map_example_1416845681753_cls');for(var i=0; i<els.length; i++){var el = els[i];arr.push({element: el, top: pxVal(el.style.top), left: pxVal(el.style.left),"font-size": (pxVal(el.style['font-size']) || pxVal(el.style.fontSize))});}return arr;})();var parentElem = mapDiv.parentNode;function getOuterWidth(){return pxVal(parentElem.offsetWidth);}function resizeTo(newWidth){var ratio = newWidth / originalWidth;mapDiv.style.width = (originalWidth * ratio) + 'px';for(var i=0; i<mapPs.length; i++){var thisMapP = mapPs[i];thisMapP.element.style.left = (thisMapP['left'] * ratio) + 'px';thisMapP.element.style.top = (thisMapP['top'] * ratio) + 'px';thisMapP.element.style.fontSize = (thisMapP['font-size'] * ratio) + 'px';}}var events = ['resize','load'];for(var i = 0; i<events.length; i++){window.addEventListener(events[i],function(){resizeTo(getOuterWidth());});}})();</script>
+		</div>
+	</div>
+	
+	
+	<div class="col-md-4 col-md-push-3 col-sm-5 col-sm-push-2 col-xs-9 graphic center-block" style="height:auto;margin-left:auto;margin-right:auto;">
+		<h2>Chart</h2>
+		<div id='chart_example_1416845213052' style='position:relative;width:auto;height:auto;margin-left:auto;margin-right:auto;' >
+			<style type='text/css'>
+				p.chart_example_1416845213052_cls	{
+					font-family:nyt-franklin,arial,helvetica,sans-serif;padding:0;margin:0;
+				}
+			</style>
+			<img src='chart_example_img.png' width='100%' height='auto' >
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:126px;left:5px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>300,000</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:167px;left:5px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>200,000</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:208px;left:6px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>100,000</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:250px;left:27px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>0</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:85px;left:5px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>400,000</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:213px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;11</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:235px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;13</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:224px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;12</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:195px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>2010</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:160px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;11</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:181px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;13</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:170px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;12</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:141px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>2010</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:105px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;11</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:127px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;13</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:116px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;12</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:87px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>2010</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:51px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;11</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:72px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;13</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:61px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>&#39;12</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:257px;left:32px;color:rgb(0,0,0);font-size:7.5px;text-align:right;line-height:120%;font-family:DJ5RetinaNr;'>2010</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:79px;left:145px;color:rgb(0,0,0);font-size:8.4px;text-align:center;line-height:120%;font-family:DJ5RetinaNr;font-weight:bold;'>Laparoscopic</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:80px;left:51px;color:rgb(0,0,0);font-size:8.4px;text-align:center;line-height:120%;font-family:DJ5RetinaNr;font-weight:bold;'>Open</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:58px;left:5px;color:rgb(0,0,0);font-size:10.5px;text-align:left;line-height:120%;font-family:DJ5RetinaNr;'>U.S. hysterectomy procedures by type </p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:79px;left:209px;color:rgb(0,0,0);font-size:8.4px;text-align:center;line-height:120%;font-family:DJ5RetinaNr;font-weight:bold;'>Vaginal</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:79px;left:100px;color:rgb(0,0,0);font-size:8.4px;text-align:center;line-height:120%;font-family:DJ5RetinaNr;font-weight:bold;'>Robotic</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:273px;left:5px;color:rgb(0,0,0);font-size:6px;text-align:left;line-height:120%;font-family:DJ5RetinaAgReg;'>Source: Decision Resources, based on government and hospital data</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:273px;left:189px;color:rgb(0,0,0);font-size:6px;text-align:right;line-height:120%;font-family:DJ5RetinaAgReg;'>The Wall Street Journal</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:25px;left:5px;color:rgb(0,0,0);font-size:8.4px;text-align:left;line-height:114%;font-family:DJ5RetinaNr;'>More women are choosing robotic hysterectomies, which offer quicker recovery and less scarring than open surgery and are easier for some doctors than manual laparoscopic surgery.</p>
+			<p class='chart_example_1416845213052_cls' style='position:absolute;top:9px;left:5px;color:rgb(0,0,0);font-size:12.6px;text-align:left;line-height:120%;font-family:DispatchCond;font-weight:bold;'>Shifting Operations</p>
+		<script>(function(){function pxVal(val){if(typeof val === 'string'){return (val.replace('px',''))*1;} else {return val * 1;}}var originalWidth = 254;var mapDiv = document.getElementById('chart_example_1416845213052');var mapPs = (function(){var arr = [];var els = document.getElementsByClassName('chart_example_1416845213052_cls');for(var i=0; i<els.length; i++){var el = els[i];arr.push({element: el, top: pxVal(el.style.top), left: pxVal(el.style.left),"font-size": (pxVal(el.style['font-size']) || pxVal(el.style.fontSize))});}return arr;})();var parentElem = mapDiv.parentNode;function getOuterWidth(){return pxVal(parentElem.offsetWidth);}function resizeTo(newWidth){var ratio = newWidth / originalWidth;mapDiv.style.width = (originalWidth * ratio) + 'px';for(var i=0; i<mapPs.length; i++){var thisMapP = mapPs[i];thisMapP.element.style.left = (thisMapP['left'] * ratio) + 'px';thisMapP.element.style.top = (thisMapP['top'] * ratio) + 'px';thisMapP.element.style.fontSize = (thisMapP['font-size'] * ratio) + 'px';}}var events = ['resize','load'];for(var i = 0; i<events.length; i++){window.addEventListener(events[i],function(){resizeTo(getOuterWidth());});}})();</script>
+		</div>
+	</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-6 col-md-push-3">
+			<h2>Known issues so far</h2>
+			<ul>
+				<li>It struggles to use some characters properly, i.e. using single quotes and international characters such as &eacute; and &aacute;.</li>
+			</ul>
+		</div>
+	</div>
+	
+	</div>
+</body>
+</html>
